@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     touch-action: manipulation;
@@ -106,8 +106,9 @@ input {
     -webkit-appearance: none;
 }
 
-#name {
+#ryan {
     font-size: 10px;
     color: #cb99c5; 
     text-align: center;
+    
 }
