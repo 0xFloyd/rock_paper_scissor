@@ -5,6 +5,8 @@ body {
     text-align: center;
 }
 
+input[type="submit"]{ -webkit-appearance: none; }
+
 h1 {
     font-size: 30px;
     color: #cb99c5; 
@@ -43,9 +45,9 @@ p {
 	text-align: center;
 	transition: top .01s linear;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-   background-color: #cb99c5;
-   text-decoration: none;
-   outline:0;
+    background-color: #cb99c5;
+    text-decoration: none;
+    outline:0;
 	box-shadow: 0 0 0 1px #cb99c5 inset,
 				0 0 0 2px rgba(255,255,255,0.15) inset,
 				0 8px 0 0 rgba(189, 142, 183, .7),
@@ -70,9 +72,9 @@ p {
 	text-align: center;
 	transition: top .01s linear;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-   background-color: #cb99c5;
-   text-decoration: none;
-   outline:0;
+    background-color: #cb99c5;
+    text-decoration: none;
+    outline:0;
 	box-shadow: 0 0 0 1px #cb99c5 inset,
 				0 0 0 2px rgba(255,255,255,0.15) inset,
 				0 8px 0 0 rgba(189, 142, 183, .7),
