@@ -2,6 +2,7 @@
 const buttons = document.querySelectorAll('.buttons');
 let paragraph = document.querySelectorAll('#result');
 let resetButton = document.getElementById("reset");
+let firstParagraph = document.getElementById("result");
 resetButton.style.display = "none"
 
 let computerScore = 0;
@@ -28,9 +29,9 @@ function computerPlay() {
 function checkScore() {
     if (playerScore == 5 || computerScore == 5) {
         resetButton.style.display = "block";
-
         for (var i=0; i<buttonsArray.length; i++) {
             buttonsArray[i].disabled = true;
+          
         }
         
         document.getElementById("pAgain").innerHTML = "Click the button below to play again!";    
